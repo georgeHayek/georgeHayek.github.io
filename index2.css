@@ -1,0 +1,213 @@
+html,body{
+    height:100%;
+    width:100%;
+    
+  }
+  
+  body{
+  
+  margin:0;
+  width: 100%;
+  }
+  
+  /*header styling*/
+  header{
+  
+    background-color: #00624A;
+      color:white;
+      margin:0px;
+      float:left 30px;
+      padding:10px;	
+  }
+  
+  .quote{
+  font-style: italic;
+  
+  }
+  
+  .sname{
+  
+  padding: 0px;
+  border: 0px;
+  margin-top:30px;
+  line-height: 0;
+  }
+  ul{
+  height: 100%;
+  margin: 0;
+  list-style-type:none;
+  }
+  ul li {
+  
+    display: inline;
+  }
+  .headernav {
+  padding: 20px;
+  padding-right: 35px;
+  border:20px;
+  background-color: #00624A;
+  
+  }
+  .headernav li{
+  padding-right: 20px;
+  float:right;
+  padding-bottom: 20px;
+  
+  }
+  
+  .headernav li a{
+    color: white;
+    padding: 15px;
+    border-right: 10px;
+    text-decoration: none;
+  }
+  .headernav li a:hover{
+  color:green;
+  
+  }
+  
+  .fistbtn{
+    font-weight:bold ;
+    background-color: blue;
+    border-color: blue;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .secondbtn{
+    font-weight:bold ;
+    background-color:green;
+    border-color: green;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 5px;
+  
+  }
+  .thirdbtn{
+    font-weight:bold ;
+    background-color: gray;
+    border-color: gray;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  /* back to the top styling*/
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 18px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    background-color: #00624A;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    
+  }
+  
+  #myBtn:hover {
+    background-color: green;
+  }
+  
+  
+  /* side nav styling */
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: green;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-bottom: 48px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+ 
+/*about us flag styling*/  
+
+
+
+  /* footer styling */
+  footer{
+    padding: 10px;
+    background-color: #00624A;
+    overflow:hidden;
+    width:98.5%;
+    margin-top: -3em;
+    position: relative;
+    bottom:0;
+  }
+  .term{
+  
+    float:right;
+  
+  }
+
+  .term li a{
+  color: white;
+ margin-right: 50px;
+  text-decoration: none;
+  }
+  .term li a:hover{
+  
+    color:green;
+  
+  }
+  .copyright{
+  color:white;
+  
+  
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  .column2 {
+    float: left;
+    width: 100%;
+  }
+  .column3{
+    float: left;
+    width: 50%;
+  
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
